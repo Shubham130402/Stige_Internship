@@ -1,0 +1,12 @@
+fruits = ['apple','banana','orange','pear', 'banana', 'kiwi', 'apple', 'banana']
+print(fruits.count('apple'))
+print(fruits.index('orange'))
+print(fruits.pop())
+print(fruits)
+fruits.append('grapes')
+print(fruits)
+fruits.reverse()
+print(fruits)
+print(fruits.index('banana',1))
+fruits.sort()
+print(fruits)
